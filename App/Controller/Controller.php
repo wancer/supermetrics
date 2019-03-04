@@ -53,7 +53,6 @@ class Controller extends AbstractController
         ];
 
         return $this->jsonResponse($response);
-
     }
 
     /**
