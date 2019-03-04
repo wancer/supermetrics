@@ -16,3 +16,10 @@ In prod-ready app it should be in request or in session.
 Located in configs to simplify app run.
 2. DI hardcoded in dependency_injection config. 
 In prod-ready app it should take only path and exclusions as input.
+
+## Dependencies
+1. PHP Version and libraries - for proper setup.
+2. php-di/php-di - Dependency Injection. Allows to make code testable and extendable.
+3. ricardofiorani/guzzle-psr18-adapter - PSR HTTP Client. Goes with PSR request/response interfaces.
+4. ocramius/proxy-manager - Proxy for autowiring DI. Makes life easier.
+5. roave/security-advisories - Security checker.
