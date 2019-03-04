@@ -23,3 +23,6 @@ In prod-ready app it should take only path and exclusions as input.
 3. ricardofiorani/guzzle-psr18-adapter - PSR HTTP Client. Goes with PSR request/response interfaces.
 4. ocramius/proxy-manager - Proxy for autowiring DI. Makes life easier.
 5. roave/security-advisories - Security checker.
+
+## Tests
+Skipped for now. But could be easily covered by PhpUnit or Codeception.
