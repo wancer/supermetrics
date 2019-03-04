@@ -19,7 +19,7 @@ class Config implements ConfigInterface
      * @param string $configDirectory
      * @param array $extensions
      */
-    public function getDirectoryConfigs(string $configDirectory, array $extensions = ['php'])
+    public function getDirectoryConfigs(string $configDirectory, array $extensions = ['php']): void
     {
         $config = [];
 

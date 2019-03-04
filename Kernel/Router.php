@@ -2,7 +2,6 @@
 
 namespace Supermetrics\Kernel;
 
-use Psr\Container\ContainerInterface;
 use Supermetrics\Kernel\Abstraction\ConfigInterface;
 use Supermetrics\Kernel\Abstraction\RouterInterface;
 use Supermetrics\Kernel\Exception\RouterException;

@@ -7,7 +7,7 @@ namespace Supermetrics\App\Service\Api\DataObject;
  */
 class Posts implements \Iterator, \JsonSerializable
 {
-    private $posts;
+    private $posts = [];
     private $page;
 
     /**

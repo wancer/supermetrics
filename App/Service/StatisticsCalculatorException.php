@@ -7,5 +7,4 @@ namespace Supermetrics\App\Service;
  */
 class StatisticsCalculatorException extends \LogicException
 {
-
 }

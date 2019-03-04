@@ -2,14 +2,12 @@
 
 namespace Supermetrics\App\Controller;
 
-use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\ResponseInterface;
 use Supermetrics\App\Service\Api\Api;
 use Supermetrics\App\Service\Api\Exception\ApiException;
 use Supermetrics\App\Service\StatisticsCalculator;
 use Supermetrics\Kernel\Abstraction\AbstractController;
 use Supermetrics\Kernel\Abstraction\ConfigInterface;
-use function GuzzleHttp\Psr7\stream_for;
 
 /**
  * Class Controller
